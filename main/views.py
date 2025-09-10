@@ -5,6 +5,7 @@ from django.http import HttpResponse
 from django.core import serializers
 
 
+
 def show_main(request):
     news_list = News.objects.all()
     
